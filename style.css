@@ -41,20 +41,37 @@ html,body{
 
 
 .exp-con{
-    width:90%;
     background-color: rgba(255, 255, 255, 0.2);
     padding:20px 30px;
     color:#d6d6d6;
     font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.5;
+    max-width: 90%;
 }
 
 
+.end-con{
+    width: 100%;
+    height:20rem;
+    color:#fff;
+    padding:0px 50px 0px;
+    text-align: center;
+}
+
+
+.home-houses-concon{
+    width: 100%;
+    height:35rem;
+    background-color: #fff;
+}
+
 .home-houses-con{
-    height: 500px;
     display: flex;
     justify-content: center;
     gap:5rem;
     text-align: center;
+    width:100%;
 }
 
 .home-house-con{
@@ -367,6 +384,9 @@ body {
 }
 .perf-content{
     background-color: #a97373;
+}
+.glob-content{
+    background-color: #89a9d2;
 }
 
 .content-img-con{
